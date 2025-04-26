@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "projet_big_data.Main",
+            "projectName": "spotify_batch"
+        },
+        {
+            "type": "java",
+            "name": "SpotifyTopSong2020",
+            "request": "launch",
+            "mainClass": "projet_big_data.SpotifyTopSong2020",
+            "projectName": "spotify_batch"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpotifyTopSong2020",
+            "request": "launch",
+            "mainClass": "projet_big_data.SpotifyTopSong2020",
+            "projectName": "spotify_batch",
+            "args": "spotify_batch/src/main/resources/spotify_cleaned.csv spotify_batch/src/main/resources/out/spotify_top_per_country"
+          }
+    ]
+}
